@@ -13,7 +13,7 @@ class JenkinsCicdApplicationTests {
 	public static Logger logger = LoggerFactory.getLogger(JenkinsCicdApplicationTests.class);
 
 	@Test
-	public  contextLoads() {
+	public void contextLoads() {
 		logger.info("Test case executed...");
 		logger.info("Test case executed --> Second log statement...");
 		assertEquals(true, true);
