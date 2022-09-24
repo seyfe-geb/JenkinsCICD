@@ -16,6 +16,7 @@ class JenkinsCicdApplicationTests {
 	public void contextLoads() {
 		logger.info("Test case executed...");
 		logger.info("Test case executed --> Second log statement...");
+		logger.info("Test case executed --> Build with Jenkins pipeline...");
 		assertEquals(true, true);
 	}
 
